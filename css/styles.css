@@ -22,3 +22,94 @@ Body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+
+}
+
+button {
+    cursor: pointer;
+    display: block;
+    border: none;
+    border-radius: 4px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+/* --------------------HEADER---------------- */
+.header {}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {}
+
+.header-nav {}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header-item {}
+
+.header-link {
+    padding: 30px 0;
+    display: inline-block;
+    outline: 2px solid green;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: tomato;
+}
+
+/* -------------------------HERO----------------- */
+.hero {}
+
+.hero-titel {}
+
+.hero-text {}
+
+.hero-button {}
